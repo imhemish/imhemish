@@ -15,5 +15,5 @@ jobs:
     - name: Generate My PRs List 👀
       uses: developersIndia/myosc@main
       with:
-        username: "${{ github.actor }}"
+        username: "imhemish"
         filename: "README.md"
