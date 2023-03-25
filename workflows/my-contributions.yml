@@ -1,0 +1,19 @@
+name: Build My Contributions List
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  # run once every month
+    - cron:  '0 0 1 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate My PRs List 👀
+      uses: developersIndia/myosc@main
+      with:
+        username: "${{ github.actor }}"
+        filename: "README.md"
