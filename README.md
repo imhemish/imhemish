@@ -25,6 +25,7 @@
 - Web scraping via Python
 - Basic scikit-learn
 - Basic Flask
+- Managing software translations with 'po' and Flutter
 - How to google and chatGPT the right thing (lol 🥰)
 - Python Pydantic
 
